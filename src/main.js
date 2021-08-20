@@ -1,3 +1,7 @@
 import about from './about.md'
 
-console.log(about)
+const div = document.createElement('div')
+
+div.innerHTML = about
+
+document.body.appendChild(div)
